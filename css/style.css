@@ -1053,7 +1053,7 @@ p {
   flex-grow: 1; 
 }
 
-.project-info h3 {
+.project-info h5 {
   margin-bottom: 1rem;
   color: var(--text-primary);
   min-height: 2.5em
