@@ -1065,6 +1065,8 @@ p {
 .project-info p {
   margin-bottom: 1.5rem;
   line-height: 1.7;
+  color: var(--text-secondary);
+  text-align: justify; 
 }
 
 .tech-stack {
@@ -1072,6 +1074,7 @@ p {
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
+  min-height: 55px;
 }
 
 .tech-tag {
