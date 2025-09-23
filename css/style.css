@@ -1013,6 +1013,7 @@ p {
   transition: var(--transition-normal);
   display: flex;
   flex-direction: column; 
+  flex: 0 1 350px;
 }
 
 .project-card:hover {
