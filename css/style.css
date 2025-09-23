@@ -1062,6 +1062,7 @@ p {
 .project-info p {
   margin-bottom: 1.5rem;
   line-height: 1.7;
+  text-align: justify;
 
 }
 
