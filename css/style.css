@@ -1042,6 +1042,7 @@ p {
   gap: 1rem;
   margin-top: auto;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* Make icons in the buttons look good */
