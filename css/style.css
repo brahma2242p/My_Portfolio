@@ -999,10 +999,9 @@ p {
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
-  justify-content:flex-start;
 }
 
 .project-card {
