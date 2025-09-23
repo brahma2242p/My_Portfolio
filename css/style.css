@@ -1010,6 +1010,8 @@ p {
   overflow: hidden;
   border: 1px solid var(--border-color);
   transition: var(--transition-normal);
+  display: flex;
+  flex-direction: column; 
 }
 
 .project-card:hover {
@@ -1036,7 +1038,7 @@ p {
 .project-card-links {
   display: flex;
   gap: 1rem;
-  margin-top: 1.5rem; /* Adds space above the buttons */
+  margin-top: auto;
   flex-wrap: wrap;
 }
 
@@ -1046,11 +1048,15 @@ p {
 }
 .project-info {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1; 
 }
 
 .project-info h3 {
   margin-bottom: 1rem;
   color: var(--text-primary);
+  min-height: 2.5em
 }
 
 .project-info p {
