@@ -37,9 +37,11 @@
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#skills" class="nav-link">Skills</a>
+                <a href="#services" class="nav-link">Services</a>
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#certificates" class="nav-link">Certificates</a>
                 <a href="#projects" class="nav-link">Projects</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
                 <a href="#web3" class="nav-link">Web3</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
@@ -91,12 +93,11 @@
                     </div>
                     <div class="about-text">
                         <h2>Hello, I'm <span class="accent-text">Brahma Reddy Palam</span></h2>
-                        <p>I'm a passionate Web Developer and Web3 Enthusiast with a deep love for creating innovative digital solutions. My journey in technology began several years ago, and since then, I've been dedicated to mastering both traditional web development and cutting-edge blockchain technologies.</p>
+                        <p>I'm a passionate Web Developer and Web3 Enthusiast, dedicated to mastering traditional web development and cutting-edge blockchain technologies.</p>
                         
-                        <p>I believe in the power of clean code, user-centered design, and the transformative potential of decentralized technologies. Whether I'm building responsive web applications or developing smart contracts, I approach each project with creativity, precision, and a commitment to excellence.</p>
+                        <p>I believe in clean code, user-centered design, and the transformative potential of decentralized tech. I approach each project with creativity, precision, and a commitment to excellence.</p>
                         
-                        <p>When I'm not coding, you'll find me exploring the latest tech trends, contributing to open-source projects, or sharing knowledge with the developer community. I'm always excited to take on new challenges and collaborate on projects that push the boundaries of what's possible on the web.</p>
-                        
+                        <p>When not coding, I explore new tech trends, contribute to open-source, and am always excited to collaborate on challenging projects.</p>
                         <div class="about-stats">
                             <div class="stat">
                                 <h3>5</h3>
@@ -158,6 +159,47 @@
                         <div class="skill-tag-item"><i class="fas fa-code-branch"></i> VS Code</div>
                         <div class="skill-tag-item learning"><i class="fab fa-figma"></i> Hibernate</div>
                         
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="page-hero">
+            <div class="container">
+                <h1>My <span class="accent-text">Services</span></h1>
+                <p>Digital solutions I offer to bring your ideas to life</p>
+            </div>
+        </section>
+        <section class="services-content">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Serverless E-commerce</h3>
+                        <p>Building scalable and cost-efficient online stores using serverless architecture, ensuring high performance and low maintenance.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <h3>Portfolio Websites</h3>
+                        <p>Crafting stunning, responsive personal portfolio websites to showcase your skills and projects to the world.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Business Websites</h3>
+                        <p>Developing professional, fast, and mobile-friendly websites for small to medium-sized businesses to establish a strong online presence.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Small Full Stack Java Apps</h3>
+                        <p>Delivering robust and secure small-scale full-stack applications using Java, Servlets, JSP, and modern database solutions.</p>
                     </div>
                 </div>
             </div>
@@ -444,6 +486,31 @@
             </div>
         </section>
 
+        <section id="testimonials" class="page-hero">
+            <div class="container">
+                <h1>Client <span class="accent-text">Testimonials</span></h1>
+                <p>What my clients say about my work and collaboration</p>
+            </div>
+        </section>
+        <section class="testimonials-content">
+            <div class="container">
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Brahma Reddy delivered an exceptional e-commerce website for my pickles business. The platform is fast, secure, and exactly what I envisioned. His professionalism and technical skill are top-notch. Highly recommended!</p>
+                        </div>
+                        <div class="testimonial-client">
+                            <h4>Client Name</h4>
+                            <span>Sudharsan Reddy Katreddy</span>
+                            <a href="https://www.knrfoods.shop//" class="btn btn-primary btn-sm proof-of-work" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Live Project
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
         <section id="web3" class="page-hero web3-hero">
             <div class="container">
                 <h1>Web3 <span class="accent-text">Projects</span></h1>
@@ -601,32 +668,7 @@
 
     <script src="js/script.js"></script>
     <script>
-  // Disable right-click
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-  });
-
-  // Block keyboard shortcuts
-  document.onkeydown = function(e) {
-    // F12
-    if (e.keyCode === 123) {
-        
-      return false;
-    
-    }
-    // Ctrl+Shift+I
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 'I'.charCodeAt(0)) {
-      return false;
-    }
-    // Ctrl+Shift+J
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 'J'.charCodeAt(0)) {
-      return false;
-    }
-    // Ctrl+U
-    if (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0)) {
-      return false;
-    }
-  };
+  
 </script>
 </body>
 </html>
