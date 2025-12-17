@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll(".preview-card, .timeline-item, .skill-item, .interest-card, .certificate-card, .project-card, .web3-project-card, .tool-card, .service-card, .testimonial-card").forEach((card) => {
+    document.querySelectorAll(".preview-card, .timeline-item, .skill-item, .interest-card, .certificate-card, .project-card, .web3-project-card, .tool-card, .service-card, .testimonial-card", ".experience-content").forEach((card) => {
         fadeInObserver.observe(card);
     });
 
